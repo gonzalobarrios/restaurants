@@ -11,3 +11,4 @@ Tambien creé un Loader y Cache de imagenes para que al scrollear sea mas perfom
 
 Para correr el proyecto simplemente es necesario descargar el proyecto y abrirlo con XCode. No hace falta instalar ninguna libreria dado que lo hice con los frameworks nativos que nos provee Swift.
 
+<img width="431" alt="image" src="https://user-images.githubusercontent.com/8472089/202293603-1c13a795-9c61-4441-9fa7-a0c7495c0e4a.png">
