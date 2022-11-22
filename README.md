@@ -1,19 +1,17 @@
-# restaurants
+# Restaurants App
 
-Este proyecto simplemente muestra un listado de restaurantes. 
-Version de Xcode: 14.0.1 
-Version de Swift: 5
+This app displays a simple list of restaurants.
+XCode version: 14.0.1
+Swift version: 5
 
-Utlice MVVM para separar la logica de UI de la logica de negocio. La logica de negocio reside en ViewModel y el ViewController solo se encarga de Crear y actualizar la UI.
-Para el Netwroking creé un APIManager y utilizo Combine para hacer los Request y tambien el en el ViewModel para el manejo de las respuestas de los requests. 
+I built it following the MVVM Architecture in order to separate the UI Logic from the Business Logic. The buisiness logic lives in the ViewModel and the ViewController is only in charge of updating and creating the UI Components.
+For the Networking I created an APIManager class and I used the Combine Framwork to do the request and also in then ViewModel for managing of the responses of the requests with the Data.
 
-Tambien creé un Loader y Cache de imagenes para que al scrollear sea mas perfomante. 
+Also I created an Image loader and Cache in order to improve the performace when we use then, especially when scrolling and the cells with images load.
 
-La interfaz de usuario es simple pero lo importante segun la letra es hacerla sin el uso de Storyboards ni Xibs, por lo cual lo hice puramente programatica 
-lo cual es importante porque si hay algun error de UI es mas facil de corregirlo e identificarlo. 
+The User Interface is simple but the important thing here is that it is builtd wihout using Storyoards or Xibs that was one of the requirements, so it is purly programmatic UI which is important becuase it easier to solve issues or simply detect them.
 
-Para correr el proyecto simplemente es necesario descargar el proyecto y abrirlo con XCode. No hace falta instalar ninguna libreria dado que lo hice con los frameworks nativos que nos provee Swift.
-
+To run the project you simply have to download it from here and open it with Xcode. There is no need to install any extra framework becuase I made it with the native frameworks that Swift provides.
 
 
 <img width="431" alt="image" src="https://user-images.githubusercontent.com/8472089/202293603-1c13a795-9c61-4441-9fa7-a0c7495c0e4a.png">
